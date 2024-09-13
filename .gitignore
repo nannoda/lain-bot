@@ -138,4 +138,12 @@ config/*
 assets/img_gen/*.jpg
 assets/data/*
 !skel/.env
-main.log*
+main.log*# Devenv
+.devenv*
+devenv.local.nix
+
+# direnv
+.direnv
+
+# pre-commit
+.pre-commit-config.yaml
